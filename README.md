@@ -41,7 +41,7 @@ To run the personal portfolio website locally, follow these steps:
 4. Start the development server:
 
    ```
-   npm start
+   npm run dev
    ```
 
 5. Open your web browser and visit `http://localhost:5173/` to view the website.
