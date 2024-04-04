@@ -1,14 +1,22 @@
 import React from "react"
-import Herosection from "./componants/pages/home/Herosection"
-import Navbar from "./componants/pages/home/Navbar"
+import HeroSection from "./pages/Herosection";
+import Navbar from "./pages/Navbar";
+import AboutMe from "./pages/AboutMe";
+import MyPortfolio from "./pages/MyPortfolio";
+import MySkills from "./pages/MySkills";
+import Footer from "./pages/Footer";
 
 
 function App() {
  
   return (
     <div>
-      <Herosection/>
+      <HeroSection/>
       <Navbar/>
+      <AboutMe/>
+      <MyPortfolio/>
+      <MySkills/>
+      <Footer/>
       
 
     </div>
